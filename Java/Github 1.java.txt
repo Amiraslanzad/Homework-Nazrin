@@ -1,0 +1,127 @@
+//Tapsiriq 1
+
+import java.util.Arrays;
+
+public class Ders12 {
+public static void main(String[] args) {
+		
+	int a[] = {9,4,7,2,3,10,1,97,39};
+	
+	Arrays.sort(a);
+	System.out.println("Ədədlərin artan sıra ilə düzülüşü" +  " " + Arrays.toString(a));
+	
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+//Tapsiriq 2
+
+public class Ders121 {
+public static void main(String[] args) {
+		
+		
+	   int a[] = {1,2,3,4,5,6,7,8,9};
+	   
+	    for (int i = 0; i < a.length;i++) {
+	    	System.out.print(a[i]*a[i] + " ");
+	    }
+	   
+	   
+	}
+}
+
+
+
+
+
+
+
+//Tapsiriq 3
+
+import java.util.Scanner;
+
+public class Ders122 {
+public static void main(String[] args) {
+		
+	 Scanner scan = new Scanner(System.in);
+	 int z = scan.nextInt();
+	 
+	 int a[] = {1,2,3,4,5,6};
+	 
+	 for(int i = 0;i < a.length; i++) {
+		 if(a[i] == z) {
+			 System.out.println("Beli");
+		 }else {
+			 System.out.println("Xeyr6");
+		 }
+	 }
+		
+	}
+}
+
+
+
+
+
+
+
+//Tapsiriq 4
+
+
+public class Ders123 {
+public static void main(String[] args) {
+		
+		int cem = 0;
+		int a[] = {1,2,3,4,5,6,7};
+		
+		for(int i = 0; i < a.length; i++) {
+			if(a[i]%2==1) {
+				cem = cem + a[i];
+			}
+		}
+		
+		System.out.println(cem);
+		
+	}
+}
+
+
+
+
+
+
+
+//Tapsiriq 5
+
+import java.util.Scanner;
+
+public class Ders124 {
+public static void main(String[] args) {
+		
+   	 int n;
+   	 Scanner input = new Scanner(System.in);
+   	 
+   	 n = input.nextInt();
+   	 
+   	 int [] arr = new int[n];
+   	 
+   	 
+   	 for(int i = 0; i < n; i++) {
+   		 
+   		 arr[i] = input.nextInt();
+   		 System.out.print(arr[i] + " ");
+   		 
+   	 }
+   	 
+   	 
+	}
+}
